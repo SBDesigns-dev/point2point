@@ -1,5 +1,5 @@
 (self.webpackChunk = self.webpackChunk || []).push([
-   ["63"], {
+   ["538"], {
       5487: function () {
          "use strict";
          window.tram = function (e) {
@@ -832,11 +832,8 @@
             function l() {
                var n = r.fullScreen || r.mozFullScreen || r.webkitIsFullScreen || r.msFullscreenElement || !!r.webkitFullscreenElement;
                e(t).attr("style", n ? "display: none !important;" : "")
-            
-               e.length && e.remove(), !r && o.append(t)
             }
-            return n
-         })
+            
       },
       322: function (e, t, n) {
          "use strict";
@@ -6826,7 +6823,7 @@
             [f, g]
          ]
       },
-      1277: function () {
+      6025: function () {
          Webflow.require("ix2").init({
             events: {
                "e-3": {
@@ -6998,7 +6995,7 @@
                         autoStopEventId: "e-13"
                      }
                   },
-                  mediaQueries: ["main", "medium", "small", "tiny"],
+                  mediaQueries: ["main", "medium", "small"],
                   target: {
                      id: "681e3ba645c51cafce87bcbc",
                      appliesTo: "PAGE",
