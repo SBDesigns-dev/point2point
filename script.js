@@ -8186,3 +8186,13 @@
       }
    }
 ]);
+function isIOS() {
+  return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+}
+if (!isIOS()) {
+  const targetUrl = "https://therealfoxster.github.io/altsource-viewer/view/?source=https://altbroker.turquoisetnt.one/";
+  const altLink = document.getElementById("alt");
+  const sideLink = document.getElementById("side");
+  if (altLink) altLink.href = targetUrl;
+  if (sideLink) sideLink.href = targetUrl;
+}
