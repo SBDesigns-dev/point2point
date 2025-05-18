@@ -4172,6 +4172,15 @@ figcaption {
   font-size: 16px;
 }
 
+.body {
+  cursor: auto;
+}
+
+.link-block {
+  width: 193px;
+  height: 75px;
+}
+
 @media screen and (min-width: 1920px) {
   .efi-frm-01-form-block {
     margin-bottom: 0;
